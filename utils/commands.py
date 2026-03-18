@@ -55,3 +55,5 @@ def list_tasks(status=None):
     for t in tasks:
         print(f"{t['id']} - {t['description']} [{t['status']}]")
         
+print("test")
+        
